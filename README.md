@@ -130,22 +130,14 @@ python agent_vr.py --llm ollama --ask "Liste as colunas obrigatórias da aba ATI
 ## 🧯 Troubleshooting
 - **`OPENAI_API_KEY` não definida** → definir variável e reabrir terminal  
 - **Ollama “connection refused”** → iniciar `ollama serve`  
-- **Streamlit finaliza sem agir** → limitação de modelo pequeno, use prompts curtos ou `pipeline_gerar_e_validar`  
+- **Streamlit finaliza sem agir** → limitação de modelo pequeno, use prompts curtos ou modelos mais potentes do Ollama.  
 - **Erro de arquivo não encontrado** → confirme que o Excel está na **raiz do projeto**  
 
 ---
 
 ## 🔐 Privacidade
 - Nenhum dado sensível é enviado externamente em **Fallback** ou **Ollama**.  
-- Em **OpenAI**, apenas o prompt é enviado; as planilhas são processadas localmente.  
-
----
-
-## 🧾 Créditos
-Projeto desenvolvido para o **Desafio 4 – Agente VR Mensal**.  
-Tecnologias: **Python, LangChain, Streamlit, Pandas, OpenPyXL**.  
-LLMs: **OpenAI (opcional)** ou **Ollama (local)**.  
-
+- Em **OpenAI**, apenas o prompt é enviado; as planilhas são processadas localmente.
 ---
 
 ## ✅ Checklist entrega
