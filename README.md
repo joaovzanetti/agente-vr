@@ -138,10 +138,3 @@ python agent_vr.py --llm ollama --ask "Liste as colunas obrigatórias da aba ATI
 ## 🔐 Privacidade
 - Nenhum dado sensível é enviado externamente em **Fallback** ou **Ollama**.  
 - Em **OpenAI**, apenas o prompt é enviado; as planilhas são processadas localmente.
----
-
-## ✅ Checklist entrega
-- [x] Código-fonte completo  
-- [x] `entradas/` com insumos e modelo  
-- [x] Planilha final `VR_MENSAL_08_2025.xlsx` como exemplo  
-- [x] README.md detalhado  
